@@ -16,14 +16,38 @@
     <div class="big-text bold">KevEngine</div>
     Kevin Liu
     <h1>Trailer</h1>
-    <a href="/">Hello</a>
+    <embed type="video/webm" src="" />
     <h1>What is KevEngine?</h1>
     KevEngine is a game engine built with SDL3, C++, and Dear ImGui.
+    <br>
+
     <h1>Engine Architecture</h1>
+    <img src=" /" alt="Engine Architecture">
     <h1>Documentation</h1>
+    <a href="/">Link</a>
     <h1>Installation</h1>
+    <a href="/">Link</a>
     <h1>Building</h1>
+    To install the ImGui dependency:
+    <pre>
+      <code>
+        git submodule init && git submodule update
+      </code>
+    </pre>
+
+    Here are the commands to build the project:
+    <pre>
+      <code>
+        make so && python3.10 game.py -m bin/kevengine.so
+      </code>
+    </pre>
     <h1>Post-Mortem</h1>
+    <div>
+      Ideally, I would have had some more time to iron out some bugs with collision <br>
+      as well as more quality of life features within the engine itself. My scope <br>
+      was also a little bit big for this project and didn't have enough time to get <br>
+      scripting working since I had issues with pybind compiling.
+    </div>
   </div>
 </body>
 
