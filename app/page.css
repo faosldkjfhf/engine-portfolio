@@ -17,3 +17,7 @@ body {
 .fit-content {
   width: fit-content;
 }
+
+.border-color {
+  border-color: rgb(200, 200, 200);
+}

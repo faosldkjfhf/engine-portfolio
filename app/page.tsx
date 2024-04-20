@@ -7,7 +7,7 @@ import "./page.css";
 export default function Home(): React.ReactElement {
   return (
     <div className="text-center font-sans m-auto container items-center">
-      <div className="font-bold text-9xl mx-auto mb-8 fit-content p-10 border-b-2">
+      <div className="font-bold text-9xl mx-auto mb-8 fit-content p-10 border-b-2 border-color">
         KevEngine
       </div>
       <div className="text-2xl mb-4">Kevin Liu</div>
@@ -18,16 +18,20 @@ export default function Home(): React.ReactElement {
       <div className="text-5xl mb-4 font-bold">Images</div>
       <div className="mb-4">
         <Image
-          src="https://faosldkjfhf.github.io/engine-portfolio/screenshot_1.png"
+          src="/screenshot_1.png"
           height="800"
           width="800"
           alt="Screenshot 1"
           style={{
             borderRadius: "0.5rem",
+            borderWidth: "0.25rem",
+            borderColor: "rgb(200, 200, 200)",
             marginLeft: "auto",
             marginRight: "auto",
+            marginBottom: "1rem",
           }}
         />
+        <div className="mb-4"></div>
         <Image
           src="https://faosldkjfhf.github.io/engine-portfolio/screenshot_2.png"
           height="800"
@@ -35,8 +39,11 @@ export default function Home(): React.ReactElement {
           alt="Screenshot 2"
           style={{
             borderRadius: "0.5rem",
+            borderWidth: "0.25rem",
+            borderColor: "rgb(200, 200, 200)",
             marginLeft: "auto",
             marginRight: "auto",
+            marginBottom: "1rem",
           }}
         />
         <Image
@@ -46,8 +53,11 @@ export default function Home(): React.ReactElement {
           alt="Screenshot 3"
           style={{
             borderRadius: "0.5rem",
+            borderWidth: "0.25rem",
+            borderColor: "rgb(200, 200, 200)",
             marginLeft: "auto",
             marginRight: "auto",
+            marginBottom: "1rem",
           }}
         />
       </div>
@@ -70,8 +80,11 @@ export default function Home(): React.ReactElement {
           alt="Engine Architecture"
           style={{
             borderRadius: "0.5rem",
+            borderWidth: "0.25rem",
+            borderColor: "rgb(200, 200, 200)",
             marginLeft: "auto",
             marginRight: "auto",
+            marginBottom: "1rem",
           }}
         />
       </div>
@@ -98,7 +111,7 @@ export default function Home(): React.ReactElement {
         </div>
       </div>
       <div className="text-5xl mb-4 font-bold">Post-Mortem</div>
-      <div className="text-pretty items-center w-2/5 mx-auto mb-8">
+      <div className="text-pretty items-center w-2/5 mx-auto mb-4">
         If I had more time, I would add quality of life improvements to the
         engine that would make it easier to add new Components, GameObjects, and
         remove Components. I would also implement a way for GameObjects to be
@@ -106,6 +119,7 @@ export default function Home(): React.ReactElement {
         also revamp collision to be handled in an OnCollision method which can
         be overwritten by different GameObjects.
       </div>
+      <div className="text-pretty items-center w-2/5 mx-auto mb-8">Hello</div>
     </div>
   );
 }
