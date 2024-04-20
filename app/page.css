@@ -1,0 +1,14 @@
+body {
+  background: rgb(22, 22, 22);
+  color: rgb(200, 200, 200);
+}
+
+.button-hover:hover {
+  background: rgb(200, 200, 200);
+  color: rgb(22, 22, 22);
+  transition-duration: 1s;
+}
+
+.fit-content {
+  width: fit-content;
+}
