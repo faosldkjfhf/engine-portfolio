@@ -28,6 +28,28 @@ export default function Home(): React.ReactElement {
             marginRight: "auto",
           }}
         />
+        <Image
+          src="https://faosldkjfhf.github.io/engine-portfolio/screenshot_2.png"
+          height="800"
+          width="800"
+          alt="Screenshot 2"
+          style={{
+            borderRadius: "0.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        />
+        <Image
+          src="https://faosldkjfhf.github.io/engine-portfolio/screenshot_3.png"
+          height="800"
+          width="800"
+          alt="Screenshot 3"
+          style={{
+            borderRadius: "0.5rem",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        />
       </div>
       <div className="mb-4">
         <div className="text-5xl mb-4 font-bold">Documentation</div>
