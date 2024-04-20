@@ -15,6 +15,12 @@ export default function Home(): React.ReactElement {
         A game engine for platformers, made using SDL3, C++, and Dear ImGui
       </div>
       <div className="text-5xl mb-4 font-bold">Trailer</div>
+      <iframe
+        width="1280"
+        height="720"
+        src="https://youtube.com/embed/0gSlU9fl7Ug"
+        className="mx-auto"
+      ></iframe>
       <div className="text-5xl mb-4 font-bold">Images</div>
       <div className="mb-4">
         <Image
@@ -30,10 +36,11 @@ export default function Home(): React.ReactElement {
             marginRight: "auto",
             marginBottom: "1rem",
           }}
+          priority
         />
-        <div className="mb-4"></div>
+        <div className="mb-4">An example scene in edit mode</div>
         <Image
-          src="https://faosldkjfhf.github.io/engine-portfolio/screenshot_2.png"
+          src="/engine-portfolio/screenshot_2.png"
           height="800"
           width="800"
           alt="Screenshot 2"
@@ -45,9 +52,11 @@ export default function Home(): React.ReactElement {
             marginRight: "auto",
             marginBottom: "1rem",
           }}
+          priority
         />
+        <div className="mb-4">A new scene</div>
         <Image
-          src="https://faosldkjfhf.github.io/engine-portfolio/screenshot_3.png"
+          src="/engine-portfolio/screenshot_3.png"
           height="800"
           width="800"
           alt="Screenshot 3"
@@ -59,7 +68,9 @@ export default function Home(): React.ReactElement {
             marginRight: "auto",
             marginBottom: "1rem",
           }}
+          priority
         />
+        <div className="mb-4">Play mode</div>
       </div>
       <div className="mb-4">
         <div className="text-5xl mb-4 font-bold">Documentation</div>
@@ -74,7 +85,7 @@ export default function Home(): React.ReactElement {
       <div className="mb-4">
         <div className="text-5xl mb-4 font-bold">Engine Architecture</div>
         <Image
-          src="https://faosldkjfhf.github.io/engine-portfolio/architecture.png"
+          src="/engine-portfolio/architecture.png"
           height="1000"
           width="1000"
           alt="Engine Architecture"
@@ -86,6 +97,7 @@ export default function Home(): React.ReactElement {
             marginRight: "auto",
             marginBottom: "1rem",
           }}
+          priority
         />
       </div>
       <div className="mb-4">
