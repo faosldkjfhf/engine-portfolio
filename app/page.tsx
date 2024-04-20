@@ -18,7 +18,7 @@ export default function Home(): React.ReactElement {
       <div className="text-5xl mb-4 font-bold">Images</div>
       <div className="mb-4">
         <Image
-          src="/screenshot_1.png"
+          src="/engine-portfolio/screenshot_1.png"
           height="800"
           width="800"
           alt="Screenshot 1"
