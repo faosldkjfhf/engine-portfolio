@@ -187,9 +187,9 @@ export default function Home(): React.ReactElement {
             The game is ran through a python file that imports kevengine.so. In
             order to run it, use the command
             <pre>
-              <code>python3.x game.py -m bin/kevengine.so</code>
+              <code>python3.10 game.py -m bin/kevengine.so</code>
             </pre>
-            where x is your python version
+            The .so file is compiled for python 3.10 so you need python 3.10
           </div>
           <div
             className="border p-3 rounded-md w-[5rem] mx-auto cursor-pointer hover:scale-110 button-hover"
