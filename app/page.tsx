@@ -18,7 +18,7 @@ export default function Home(): React.ReactElement {
       <div className="text-5xl mb-4 font-bold">Images</div>
       <div className="mb-4">
         <Image
-          src="/screenshot_1.png"
+          src="https://faosldkjfhf.github.io/engine-portfolio/screenshot_1.png"
           height="800"
           width="800"
           alt="Screenshot 1"
@@ -42,7 +42,7 @@ export default function Home(): React.ReactElement {
       <div className="mb-4">
         <div className="text-5xl mb-4 font-bold">Engine Architecture</div>
         <Image
-          src="/architecture.png"
+          src="https://faosldkjfhf.github.io/engine-portfolio/architecture.png"
           height="1000"
           width="1000"
           alt="Engine Architecture"
