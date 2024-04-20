@@ -218,7 +218,7 @@ export default function Home(): React.ReactElement {
         </div>
         <div className="text-pretty items-center w-2/5 mx-auto mb-4">
           If I were to take the project further, I would focus on adding more
-          extendability for the user through scripting. I wasn't able to get
+          extendability for the user through scripting. I wasn{`'`}t able to get
           pybind11 working completely in time, so if I could fix that I would
           and then add scripting in Python.
         </div>
