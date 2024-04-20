@@ -85,7 +85,7 @@ export default function Home(): React.ReactElement {
           width="720"
           height="406"
           src="https://youtube.com/embed/0gSlU9fl7Ug"
-          className="mx-auto"
+          className="mx-auto mb-4"
         ></iframe>
         <div className="text-5xl mb-8 font-bold" id="images">
           Images
@@ -166,8 +166,8 @@ export default function Home(): React.ReactElement {
           <Image
             className="hover:scale-105 transition-all mb-4"
             src="/engine-portfolio/architecture.png"
-            height="1000"
-            width="1000"
+            height="800"
+            width="800"
             alt="Engine Architecture"
             style={{
               borderRadius: "0.5rem",
@@ -212,7 +212,15 @@ export default function Home(): React.ReactElement {
           and remove Components. I would also implement a way for GameObjects to
           be created in Python and then added into the Scene through Python. I
           would also revamp collision to be handled in an OnCollision method
-          which can be overwritten by different GameObjects.
+          which can be overwritten by different GameObjects. I would also fix my
+          KeyboardController movement and collision because sometimes it has
+          some weird bugs.
+        </div>
+        <div className="text-pretty items-center w-2/5 mx-auto mb-4">
+          If I were to take the project further, I would focus on adding more
+          extendability for the user through scripting. I wasn't able to get
+          pybind11 working completely in time, so if I could fix that I would
+          and then add scripting in Python.
         </div>
         <div className="text-pretty items-center w-2/5 mx-auto mb-8">
           Overall, the project went pretty well especially implementing the Dear
